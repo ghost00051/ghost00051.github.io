@@ -1,0 +1,410 @@
+@media screen and (max-width: 390px) {
+    .slider__god {
+        display: none;
+    }
+
+    .mobile-cover {
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .second__nav {
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        margin-left: 0;
+        padding-top: 0;
+        position: absolute;
+        top: 45px;
+        background-color: var(--slider--background);
+        padding-left: 4%;
+        left: -250px;
+        transition: left 1s ease;
+    }
+
+    .second__nav.x-ray {
+        left: 0px;
+        transition: left 1s ease;
+    }
+
+    .second__bar {
+        width: auto;
+    }
+
+    .second__bar, .catalog {
+        margin-left: 0;
+        margin-bottom: 2%;
+        border-bottom: rgb(117, 117, 117) 0.5px solid;
+    }
+
+    .navigation__bar {
+        position: absolute;
+        top: 260px;
+        padding-left: 0;
+        width: 60%;
+        background-color: var(--slider--background);
+        padding-left: 4%;
+        left: -250px;
+        transition: left 1s ease;
+    }
+
+    .navigation__bar.x-ray {
+        left: 0px;
+        transition: left 1s ease;
+    }
+
+    .navigation__bar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .burger__button {
+        display: block;
+        width: 50px;
+        height: 40px;
+        border: none;
+        outline: none;
+        color: rebeccapurple;
+        z-index: 2;
+        background-color: rgba(1, 1, 1, 0);
+    }
+
+    .burger__button span {
+        position: absolute;
+        background-color: red;
+        width: 30px;
+        height: 2px;
+        border-radius: 3px;
+        left: 15px;
+        top: 30px;
+    }
+
+    .burger__button.x-ray span:nth-child(1) {
+        transform: rotate(45deg);
+        transition: transform 0.5s ease;
+    }
+
+    .burger__button.x-ray span:nth-child(2) {
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+
+    .burger__button.x-ray span:nth-child(3) {
+        transform: rotate(-45deg);
+        transition: transform 0.5s ease;
+    }
+
+
+    .burger__button span:nth-child(1) {
+        transform: translateY(-15px);
+        transition: transform 0.5s ease;
+    }
+
+    .burger__button span:nth-child(2) {
+        transition: opacity 0.5s ease;
+    }
+
+    .burger__button span:nth-child(3) {
+        transform: translateY(15px);
+        transition: transform 0.5s ease;
+    }
+
+    .basket p {
+        display: none;
+    }
+
+    .telefon {
+        position: absolute;
+        top: 400px;
+        margin-left: 0;
+        width: 60%;
+        background-color: var(--slider--background);
+        left: -250px;
+        transition: left 1s ease;
+        padding-left: 4%;
+    }
+
+    .telefon.x-ray {
+        left: 0px;
+    }
+
+    .comunacation {
+        position: absolute;
+        top: 445px;
+        width: 60%;
+        padding-left: 0;
+        margin-left: 0;
+        background-color: var(--slider--background);
+        left: -250px;
+        transition: left 1s ease;
+        padding-left: 4%;
+    }
+
+    .comunacation.x-ray {
+        left: 0px;
+        transition: left 1s ease;
+    }
+
+    .map__god {
+        position: absolute;
+        top: 0px;
+        margin-left: 7%;
+        width: 60%;
+        background-color: var(--slider--background);
+        margin-left: 0;
+        z-index: 1;
+        padding-left: 4%;
+        left: -230px;
+        transition: left 1s ease;
+    }
+
+    .map__god.x-ray {
+        left: 0px;
+        transition: left 1s ease;
+    }
+
+    .map__god a, .telefon a, .basket a, .comunacation {
+        justify-content: center;
+    }
+
+    .navi {
+        justify-content: space-between;
+        padding-bottom: 2%;
+        align-items: center;
+    }
+
+    .navigation__bar li {
+        padding-bottom: 4%;
+        border-bottom: rgb(117, 117, 117) 0.5px solid;
+    }
+
+    .first__element {
+        width: 60%;
+        align-items: center;
+        margin-bottom: 2%;
+        border-bottom: rgb(117, 117, 117) 0.5px solid;
+    }
+
+    .second__element {
+        width: 78%;
+        margin-bottom: 2%;
+        border-bottom: rgb(117, 117, 117) 0.5px solid;
+
+    }
+
+    .third__bar {
+        width: 50%;
+    }
+
+    .second__element ul ul, .second__bar ul ul, .third__bar ul ul {
+        display: none;
+    }
+
+    .second__element ul, .second__bar ul, .third__bar ul {
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .side__img, #img__third {
+        display: none;
+    }
+
+    .set {
+        padding-left: 0;
+    }
+
+    .set, .disiagn {
+        margin-top: 5%;
+        margin-bottom: 2%;
+        border-bottom: rgb(117, 117, 117) 0.5px solid;
+    }
+
+    .side__element p, .catalog p {
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .first__element p {
+        margin-bottom: 0;
+    }
+
+    .love p:first-child {
+        padding-right: 0;
+        padding-top: 13%;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .since {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+        margin-top: 1%;
+    }
+
+    .love {
+        background-image: none;
+    }
+
+    .love p:nth-child(3) {
+        font-size: 29px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .love p:nth-child(4) {
+        padding-left: 0;
+        padding-bottom: 59%;
+        background-image: url(./img/background-telefon.svg);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+    }
+
+    .element__grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .macaron, .get__set, .print, .widen, .corpor, .wholesale {
+        background-image: none;
+    }
+
+    .macaron img:nth-child(1), .get__set img:nth-child(1), .print img:nth-child(1), .widen img:nth-child(1), .corpor img:nth-child(1), .wholesale img:nth-child(1) {
+        display: none;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .macaron, .get__set, .print, .widen, .corpor, .wholesale {
+        display: block;
+        text-decoration: none;
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: 1px rgba(41, 41, 41, 0.16) solid;
+    }
+
+    .macaron div {
+        width: 100%;
+    }
+
+    .macaron div, .get__set div, .widen div, .corpor div, .wholesale div {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-top: 1%;
+    }
+
+    .print div {
+        justify-content: flex-start;
+    }
+
+    .get__set div {
+        width: 100%;
+    }
+
+    .print div {
+        width: 108%;
+    }
+
+    .macaron div p, .get__set div p, .print div p, .widen div p, .corpor div p, .wholesale div p {
+        font-size: 17px;
+    }
+
+    .grid__god {
+        justify-content: left;
+        margin-left: 3%;
+    }
+
+    .widen div {
+        width: 100%;
+    }
+
+    .corpor div {
+        width: 100%;
+    }
+
+    .wholesale div {
+        width: 100%;
+    }
+
+    .second__stoks {
+        display: none;
+        position: initial;
+    }
+
+    .god_first_stoks.myclass {
+        display: block;
+        left: 10%;
+    }
+
+    .god_first_stoks {
+        position: initial;
+        display: block;
+        left: -70%;
+        transition: left 3s ease;
+    }
+
+    .god_first_stoks.myclass {
+        position: initial;
+    }
+
+    .first_stoks .element-stoks:nth-child(3) {
+        display: none;
+    }
+
+    .first_stoks .element-stoks:nth-child(4) {
+        display: none;
+    }
+
+    .element-stoks {
+        padding-right: 13%;
+    }
+
+    .first_stoks {
+        width: 132%;
+    }
+
+    .first_stoks {
+        position: relative;
+        left: 10%;
+        transition: left 1s ease;
+    }
+
+    .first_stoks.myclass {
+        left: -56%;
+        transition: left 1s ease;
+    }
+
+    .holiday {
+        margin-top: 135%;
+    }
+
+    .marker div {
+        top: 174%;
+        left: 47%;
+    }
+
+    .img-holiday {
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .img-holiday div {
+        flex-direction: row;
+    }
+
+    .img-holiday div:nth-child(4), .img-holiday div:nth-child(5), .img-holiday div:nth-child(6) {
+        display: none;
+    }
+}
